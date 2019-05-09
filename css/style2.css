@@ -1,0 +1,41 @@
+body {
+  background: lightblue;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  height: 25vh;
+  line-height: 100px;
+}
+a {
+  text-decoration: none;
+
+}
+li:hover {
+  color: white;
+  background-color: black;
+}
+li {
+  list-style: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border: 2px black solid;
+  background: #72046A;
+  border-radius: 50px;
+  transition: all .3s ease;
+}
+.showcase {
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 80vh;
+}
+.text {
+  border: 2px yellow solid;
+  font-size: 3rem;
+  background: orange;
+  text-align: center;
+}
