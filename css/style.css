@@ -5,7 +5,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
-  height: 25vh;
+  height: 15vh;
   line-height: 100px;
 }
 a {
@@ -23,9 +23,7 @@ li {
   font-size: 20px;
   border: 2px black solid;
   background: #72046A;
-  border-radius: 50px;
   transition: all .3s ease;
-
 }
 
 .showcase {
